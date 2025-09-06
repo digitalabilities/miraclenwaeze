@@ -1,7 +1,6 @@
 body{
     overflow-x: hidden;
 }
-
 .npamiracle{
     display: flex;
     justify-content: center;
@@ -108,6 +107,7 @@ button{
 }
 .precious{
     display: flex;
+    opacity: 0;
     flex-direction: column;
     position: absolute;
     justify-content: space-between;
@@ -192,6 +192,7 @@ button{
     opacity: 1;
     left: 70%;
 }
+
 
 
 }
