@@ -1,0 +1,25 @@
+.grand{
+            background-color: blue;
+        }
+        .grand h1{
+            color: goldenrod;
+        }
+        .grand p{
+            font-size: 50px;
+            color: rgb(223, 181, 181);
+        }
+
+        @media screen and (min-width: 250px) and (max-width: 500px){
+        .grand{
+            background-color: rgb(139, 139, 207);
+        }
+        .grand h1{
+            color: goldenrod;
+            font-size: 20px;
+        }
+
+        .grand p{
+            font-size: 20px;
+            color: red;
+        }
+}
